@@ -17,13 +17,14 @@ function sayHiToGrandma(string){
   }
 }
 function sayHiToGrandma(string){
-  var test = string.toUpperCase()
-  if(string === test){
-     return("YES INDEED")
+  var test = "YES INDEED"
+  if(string === string.toUpperCase){
+     return(test)
   }
 }
 function sayHiToGrandma(string){
-  if(string === "I love you, too."){
-     return("I love you, too.")
+  var test = "I love you, too."
+  if(string === test){
+     return(test)
   }
 }
